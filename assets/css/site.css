@@ -6,7 +6,13 @@
 
 main.container {
   font-family: serif;
-  font-size: 21px;
+  font-size: 18px;
+}
+
+@media (min-width: 764px) {
+  main.container {
+    font-size: 21px;
+  }
 }
 
 .highlight {
