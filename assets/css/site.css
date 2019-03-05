@@ -72,7 +72,7 @@ a:hover {
 }
 
 .post-title a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .post-title a:hover {
@@ -94,6 +94,11 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
   color: rgb(222, 255, 0);
 }
