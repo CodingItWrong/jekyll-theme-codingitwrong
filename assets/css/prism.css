@@ -1,5 +1,5 @@
 /* PrismJS 1.16.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+ruby+diff+markup-templating+docker+handlebars+java+php+json+markdown+properties+scss+jsx+swift&plugins=line-numbers+toolbar+copy-to-clipboard */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+ruby+diff+markup-templating+docker+handlebars+java+php+json+markdown+properties+scss+jsx+swift+yaml&plugins=line-numbers+toolbar+copy-to-clipboard */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -179,6 +179,12 @@ div.code-toolbar > .toolbar {
 }
 
 div.code-toolbar:hover > .toolbar {
+	opacity: 1;
+}
+
+/* Separate line b/c rules are thrown out if selector is invalid.
+   IE11 and old Edge versions don't support :focus-within. */
+div.code-toolbar:focus-within > .toolbar {
 	opacity: 1;
 }
 
