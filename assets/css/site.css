@@ -82,6 +82,9 @@ a:hover {
 code {
   background-color: rgb(222, 255, 0);
   color: black;
+}
+
+code[class*="language-"], pre[class*="language-"] {
   font-size: 16px;
 }
 
