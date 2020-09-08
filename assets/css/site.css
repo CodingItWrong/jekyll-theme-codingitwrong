@@ -82,6 +82,7 @@ a:hover {
 code {
   background-color: rgb(222, 255, 0);
   color: black;
+  font-size: 16px;
 }
 
 footer a {
