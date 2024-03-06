@@ -99,3 +99,10 @@ footer a:hover {
 .token.inserted {
   color: rgb(222, 255, 0);
 }
+
+/* inline code snippets */
+:not(pre)>code[class*="language-"] {
+  background: #eee;
+  color: black;
+  text-shadow: none;
+}
