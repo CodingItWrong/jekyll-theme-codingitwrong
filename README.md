@@ -34,6 +34,10 @@ Or install it yourself as:
 - Run your Jekyll site and test the changes
 - When done, run `bundle config --delete local.jekyll-theme-codingitwrong` to go back to using the real gem
 
+## Publishing
+
+Generally just used referencing GitHub, instead of a published version.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
