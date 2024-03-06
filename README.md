@@ -26,9 +26,13 @@ Or install it yourself as:
 
     $ gem install jekyll-theme-codingitwrong
 
-## Usage
+## Testing Locally
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+- Clone this repo
+- Make changes
+- In the Jekyll site you want to use it in, run `bundle config --local local.jekyll-theme-codingitwrong /path/to/jekyll-theme-codingitwrong`
+- Run your Jekyll site and test the changes
+- When done, run `bundle config --delete local.jekyll-theme-codingitwrong` to go back to using the real gem
 
 ## Contributing
 
